@@ -20,7 +20,7 @@ packages:
   gitUsername: ArtiKhare
   gitBranch: master
 services:
-- serviceName: project.serengeti1706githubpackagesync.integrations:azrepoPackage
+- serviceName: project.serengeti1706githubpackagesync.integrations:addservicenew
   packages:
   - name: Serengeti1706githubpackagesyncProject
     version: "1.0"
@@ -36,6 +36,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.serengeti1706githubpackagesync.integrations:azrepoPackage
+  packages:
+  - name: Serengeti1706githubpackagesyncProject
+    version: "1.0"
+  - name: AddIntsPackage
+    version: "1.0"
+  - name: LowerFSPackage
+    version: "1.0"
 - serviceName: project.serengeti1706githubpackagesync.integrations:packagesync
   packages:
   - name: Serengeti1706githubpackagesyncProject
